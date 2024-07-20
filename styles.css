@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: fantasy, sans-serif;
+    color:aliceblue;
+    font-family: fantasy,cursive sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;

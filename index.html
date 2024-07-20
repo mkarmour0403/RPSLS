@@ -36,6 +36,23 @@
         <div id="result" class="result"></div>
         <button id="play-again" onclick="resetGame()">Play Again</button>
     </div>
+
+    <!-- Background music -->
+    <audio id="background-music" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Sound effects -->
+    <audio id="win-sound">
+        <source src="win-sound.wav" type="audio/mpeg">
+    </audio>
+    <audio id="lose-sound">
+        <source src="lose-sound.wav" type="audio/mpeg">
+    </audio>
+    <audio id="tie-sound">
+        <source src="tie-sound.wav" type="audio/mpeg">
+    </audio>
+
     <script src="script.js"></script>
 </body>
 </html>
