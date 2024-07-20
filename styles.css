@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: fantasy, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.title {
+    margin-bottom: 20px;
+    background-color: rgba(20, 22, 148, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.player {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.choices img {
+    cursor: pointer;
+    width: 100px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.choices img:hover {
+    transform: scale(1.5);
+}
+
+.selection {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#play-again {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
